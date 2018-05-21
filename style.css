@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=cyrillic');
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 16px;
+}
+
+
+h1, h2, h3 {
+    margin: 8px 8px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+p {
+    margin: 8px 8px 32px;
+}
+
+.block {
+    margin-bottom: 32px;
+}
+
+button {
+    color: white;
+    border: none;
+    background: black;
+    display: block;
+    cursor: pointer;
+    padding: 16px 22px;
+    margin: 8px;
+    font-weight: 500;
+
+}
+
+textarea {
+    margin: 8px;
+    min-width: 600px;
+    border: 2px solid black;
+}
