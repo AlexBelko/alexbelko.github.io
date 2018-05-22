@@ -25,32 +25,10 @@
 
 <body>
     <hgroup>
-        <h1>Генератор тестовой страницы</h1>
-        <p>Вставьте тестируемый скрипт и код для баннера, и нажмите "Сгенерировать" для запуска теста</p>
+        <h1>Тестовая страница</h1>
     </hgroup>
-    <div class="adsbyplatform" data-size="320x480"></div>
-    <div id="app">
-        <div class="block">
-            <h2>Код трекера</h2>
-            <textarea name="tracker-code"
-                        id="tracker-code"
-                        v-model="trackerCode"
-                        cols="30"
-                        rows="10"></textarea>
-            <!-- <pre><code class="js" v-model="trackerCode">...</code></pre> -->
-        </div>
-
-        <div class="block">
-            <h2>Код баннера</h2>
-            <textarea name="banner-code"
-                    id="banner-code"
-                    v-model="bannerCode"
-                    cols="30"
-                    rows="10"></textarea>
-            <!-- <pre><code class="js" v-model="bannerCode">...</code></pre> -->
-        </div>
-
-        <button @click="SaveAndReload()">Сохранить и обновить</button>
+    <div style="border: 1px solid black; padding: 8px;">
+        <div class="adsbyplatform" data-size="320x480"></div>
     </div>
 
 </body>
